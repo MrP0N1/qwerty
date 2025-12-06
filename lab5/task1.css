@@ -1,0 +1,143 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+  background-color: #f9f9f9;
+  color: #222;
+  transition: background 0.3s, color 0.3s;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.products {
+  text-align: center;
+}
+
+.product {
+  display: inline-block;
+  vertical-align: top;
+  width: 280px;
+  background: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 10px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+  margin: 10px;
+}
+
+.product:hover {
+  transform: scale(1.03);
+}
+
+.product img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+h3 {
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+.stars {
+  direction: rtl;
+  unicode-bidi: bidi-override;
+}
+
+.stars input {
+  display: none;
+}
+
+.stars label {
+  color: #ccc;
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.2s;
+}
+
+.stars input:checked ~ label,
+.stars label:hover,
+.stars label:hover ~ label {
+  color: gold;
+}
+
+.price {
+  font-weight: bold;
+  color: #333;
+  margin-top: 8px;
+}
+
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 0 auto;
+}
+
+th, td {
+  border: 1px solid #999;
+  padding: 8px;
+  text-align: center;
+}
+
+tr:nth-child(odd) {
+  background: #f0f0f0;
+}
+
+tr:hover {
+  background: #ddd;
+}
+
+#theme-toggle {
+  display: none;
+}
+
+.theme-switch {
+  display: block;
+  width: 200px;
+  text-align: center;
+  margin: 0 auto 20px auto;
+  padding: 8px 0;
+  background: #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+
+.theme-switch:hover {
+  background: #ccc;
+}
+
+#theme-toggle:checked ~ .page {
+  background-color: #121212;
+  color: #f1f1f1;
+}
+
+#theme-toggle:checked ~ .page .product {
+  background: #1e1e1e;
+  border-color: #555;
+}
+
+#theme-toggle:checked ~ .page .theme-switch {
+  background: #333;
+  color: #f1f1f1;
+}
+
+#theme-toggle:checked ~ .page table,
+#theme-toggle:checked ~ .page th,
+#theme-toggle:checked ~ .page td {
+  border-color: #666;
+}
+
+#theme-toggle:checked ~ .page tr:nth-child(odd) {
+  background: #1a1a1a;
+}
+
+#theme-toggle:checked ~ .page tr:hover {
+  background: #333;
+}
