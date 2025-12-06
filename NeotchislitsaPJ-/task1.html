@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея Рецептів</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Мої улюблені рецепти</h1>
+
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+
+        <div class="controls">
+            <label for="slide1" class="arrow left"></label>
+            <label for="slide2" class="arrow right"></label>
+        </div>
+
+        <div class="gallery-viewport">
+            <div class="gallery-track">
+                
+                <div class="slide">
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat1.jpg" alt="Тушкована яловичина у пиві">
+                            <div class="description">
+                                <h3>Тушкована яловичина у пиві</h3>
+                                    <p>600 г філе стегна «Супер Філео»
+1 кг яловичини (задня частина)
+1 морква
+1 цибуля
+¼ кореня селери
+1 солодкий перець
+</p>
+                            </div>
+                            <a href="#modal1" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat2.jpg" alt="Святкова закуска">
+                            <div class="description">
+                                <h3>Святкова закуска</h3>
+                                <p>1 невелика головка капусти
+6 профітролів
+200 г печінкового паштету
+50 г м’якого масла
+сіль та перець до смаку
+</p>
+                            </div>
+                            <a href="#modal2" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat3.jpg" alt="Канапки з салом від">
+                            <div class="description">
+                                <h3>Канапки з салом від</h3>
+                                <p>К5 картоплин
+70-100 г сала
+8 скибок житнього хліба
+8-16 ч. л. гірчиці у зернах
+½ шт. перцю чилі
+</p>
+                            </div>
+                            <a href="#modal3" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat4.jpg" alt="Салат з серцем та морквою">
+                            <div class="description">
+                                <h3>Салат з серцем та морквою</h3>
+                                <p>100 г твердого сиру
+1 свиняче серце
+200 г корейської моркви
+1 цибулина
+100 г домашнього майонезу
+2 ст. л. олії
+</p>
+                            </div>
+                            <a href="#modal4" class="open-modal"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat5.jpg" alt="Ліниві голубці">
+                            <div class="description">
+                                <h3>Ліниві голубці</h3>
+                                <p>1 стейк томагавк
+120 г рису
+250 мл води
+1 морква
+1 цибулина
+500 г свинячого фаршу
+600 г білокачанної капусти
+</p>
+                            </div>
+                            <a href="#modal5" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                             <img src="img.meat6.jpg" alt=" Пиріжки з картоплі">
+                             <div class="description"><h3>Пиріжки з картоплі</h3><p>1 паковання філе стегна «Супер Філео»
+400 г відвареної картоплі
+100 г твердого сиру
+1 яйце
+4 ст. л. олії в тісто
+100 г пшеничного борошна
+сіль до смаку
+3-4 гілочки петрушки або кропу
+4 ст. л. олії для смаження
+</p></div>
+                             <a href="#modal6" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                             <img src="img.meat7.jpg" alt="калитa з маком та родзинками">
+                             <div class="description"><h3>калитa з маком та родзинками</h3><p>4 курячих стегна
+350 г борошна 
+200 мл молока 2,5%
+1 яйце 
+50 г вершкового масла 82,5% (+20 г для змащування деко)
+3 ст. л. соняшникової олії 
+</p></div>
+                             <a href="#modal7" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                             <img src="img.meat8.jpg" alt="Опеньки в сметані">
+                             <div class="description"><h3>Опеньки в сметані</h3><p>700 г яловичина чи іншого м'яса
+300 г опеньків
+1 цибуля
+2-3 ст. л. олії
+50 мл молока
+150 г сметани жирністю 20%
+сіль до смаку
+чорний мелений перець
+</p></div>
+                             <a href="#modal8" class="open-modal"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="modal1" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat1.jpg" alt="Велике фото">
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat2.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal3" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat3.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal4" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat4.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal5" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat5.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal6" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat6.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal7" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat7.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal8" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat8.jpg" alt="Велике фото">
+        </div>
+    </div>
+    
+    </body>
+</html>
