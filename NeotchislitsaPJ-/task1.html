@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Галерея Рецептів</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+<body>
+
+    <div class="container">
+        <h1>Мої улюблені рецепти</h1>
+
+        <input type="radio" name="slider" id="slide1" checked>
+        <input type="radio" name="slider" id="slide2">
+
+        <div class="controls">
+            <label for="slide1" class="arrow left"></label>
+            <label for="slide2" class="arrow right"></label>
+        </div>
+
+        <div class="gallery-viewport">
+            <div class="gallery-track">
+                
+                <div class="slide">
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat1.jpg" alt="М'ясо з кунжутом та медом">
+                            <div class="description">
+                                <h3>М'ясо з кунжутом та медом</h3>
+                                    <p>600 г філе стегна «Супер Філео»
+М'ясо (будь-яке!) - 500 г
+Мед – 2 ст. л. (60 г)
+Сік лимона – 1 ст. л. (15-20 г)
+Кунжут – 30-50 г
+Олія - ​​1-2 ст. л. (20-30 г)
+Сіль - за смаком
+</p>
+                            </div>
+                            <a href="#modal1" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat2.jpg" alt="Закуска з курячим філе">
+                            <div class="description">
+                                <h3>Закуска з курячим філе</h3>
+                                <p>1 невелика головка капусти
+Куряче філе (різане шматочками 2,5 см) – 450 г
+Огірок (різаний скибочками завтовшки 0,5 см) - 16 скибочок
+Помідори вершки (різані скибочками завтовшки 0,5 см) - 16 скибочок
+Піта діаметром 15 см (розрізана навпіл) – 4 шт.
+Салат айсберг (листя, різані локшиною) - 1 склянка
+</p>
+                            </div>
+                            <a href="#modal2" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat3.jpg" alt="Курка по-сільськи">
+                            <div class="description">
+                                <h3>Курка по-сільськи</h3>
+                                <p>К5 картоплин
+Курка бройлерна (1,3-1,8 кг), розрубана порційні шматки – 1 шт.
+Олія - ​​1/4 склянки
+Бекон, нарізаний шматочками по 2,5 см – 100 г
+Перець зелений, дрібно нарізаний – 1 склянка
+Цибуля ріпчаста, дрібно нарізана - 1/2 склянка.
+Вода – 2 склянки.
+</p>
+                            </div>
+                            <a href="#modal3" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat4.jpg" alt="Смажені помідори">
+                            <div class="description">
+                                <h3>Смажені помідори</h3>
+                                <p>100 г твердого сиру
+Помідори – 2 шт.
+Сир (Емменталь) тертий – 100 г
+Цукор – 1 ст. ложка
+Олія оливкова - 1 ст. ложка
+Сіль
+</p>
+                            </div>
+                            <a href="#modal4" class="open-modal"></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slide">
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                            <img src="img.meat5.jpg" alt="Шикарна печена картопля">
+                            <div class="description">
+                                <h3>Шикарна печена картопля</h3>
+                                <p>1 стейк томагавк
+Картопля велика (розсипчаста) - 4 шт.
+Сир швейцарський (подрібнений на тертці) – 120 г
+Олія вершкове (розм'якшене) - 120 г
+Трави (рубані) (петрушка, кріп тощо) - 2 ст. л.
+Вершки для збивання, несолодкі - 60 г</p>
+                            </div>
+                            <a href="#modal5" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                             <img src="img.meat6.jpg" alt="Цибуля в клярі">
+                             <div class="description"><h3>Цибуля в клярі</h3><p>1 паковання філе стегна «Супер Філео»
+Цибуля ріпчаста великого діаметру - 2 шт.
+Яйця курячі – 3 шт.
+Сметана 20% - 2 повні ст. л. (З великою гіркою)
+Майонез – 1 ст.л. (без гірки)
+Борошно</p></div>
+                             <a href="#modal6" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                             <img src="img.meat7.jpg" alt="Салат по-польськи">
+                             <div class="description"><h3>Салат по-польськи</h3><p>4 курячих стегна
+Помідори – 5-6 шт.
+Огірки свіжі – 1-2 шт.
+Огірки малосольні – 1-2 шт.
+Цибуля ріпчаста - 1 головка
+Яйця варені – 2 шт.
+Олія - ​​3-4 ст.ложки
+Зелень кропу та петрушки
+</p></div>
+                             <a href="#modal7" class="open-modal"></a>
+                        </div>
+                    </div>
+                    <div class="recipe-card">
+                        <div class="photo-box">
+                             <img src="img.meat8.jpg" alt="Стир-фрай з куркою">
+                             <div class="description"><h3>Стир-фрай з куркою</h3><p>700 г яловичина чи іншого м'яса
+яче філе (різане дрібними шматочками) – 450 г
+Перець болгарський червоний (різаний смужками) – 1 шт.
+Перець болгарський жовтий (різаний смужками) – 1 шт.
+Зелений горошок у стручках (цукровий) (різаний по діагоналі) - 1 склянка
+Цибуля ріпчаста (різана по вертикалі) - 1/2 склянки
+</p></div>
+                             <a href="#modal8" class="open-modal"></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="modal1" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat1.jpg" alt="Велике фото">
+        </div>
+    </div>
+    
+    <div id="modal2" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat2.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal3" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat3.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal4" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat4.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal5" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat5.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal6" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat6.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal7" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat7.jpg" alt="Велике фото">
+        </div>
+    </div>
+
+    <div id="modal8" class="modal-overlay">
+        <div class="modal-content">
+            <a href="#" class="close-btn">&times;</a>
+            <img src="img.meat8.jpg" alt="Велике фото">
+        </div>
+    </div>
+    
+    </body>
+</html>
